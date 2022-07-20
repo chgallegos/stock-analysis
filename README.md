@@ -27,30 +27,35 @@ The purpose of this challenge is to use a pre existing code that was developed d
 
 When the code for Module 2 was ran, before it was refactored it provided the following run times:
 
-**2017**
+### 2017
+
 ![alt text](https://github.com/chgallegos/stock-analysis/blob/main/VBA_Challenge_2017%20Pre-Refactored.png)
-**2018**
+
+### 2018
+
 ![alt text](https://github.com/chgallegos/stock-analysis/blob/main/VBA_Challenge_2018%20Pre-Refactored.png)
 
-### Refactored Code:
+## Refactored Code:
 
 Once the code was refactored, the code ran faster, this is because the code was made more efficient by using a shorter code that was more efficient and didnt need as much memory to process a less efficient code.
 
-**2017**
+### 2017*
+
 ![alt text](https://github.com/chgallegos/stock-analysis/blob/main/VBA_Challenge_2017%20Refactored.png)
 
-**2018**
+### 2018
+
 ![alt text](https://github.com/chgallegos/stock-analysis/blob/main/VBA_Challenge_2017%20Refactored.png)
 ----
 
-#Summary:
+# Summary:
 
-###-What are the advantages or disadvantages of refactoring code?
+### What are the advantages or disadvantages of refactoring code?
 The advantage that I can see from refactoring a code is that the code becomes more efficient in terms of memory/processing needs, therefore, this could come in very beneficial when doing analysis to enormous amounts of data, in which this usage could influence if wheter there is an actual completion of the job (ie, the computer processor cannot handle the analysis).
 
 A disadvantage that I found was that as I was re-writting the code, it would destabilize it in a way that as I pulled and added lines of code, it seems like it would create gaps and the code would run until I was able to figure out what the new lines of code were doing that were conflicting with the already written ones.
 
-###-How do these pros and cons apply to refactoring the original VBA script?
+### How do these pros and cons apply to refactoring the original VBA script?
 In this case, these pros and cons were present in refactoring the VBA script, however the pros were not as significan as the processing time, even though it did change substantially, in the big picture the change didnt seem to be of too much relevance.
 
 
