@@ -1,39 +1,46 @@
 # VBA stock-analysis
-### Refactoring Code Exercise
+ Refactoring Code Exercise
 ----
-# Overview: Module 2 presented a scenario of creating a VBA code that would take the year input and it would calculate the Total Daily Volumes as well as the yearly Return for every of the 12 stocks that were being analyzed.
+# Overview
+
+Module 2 presented a scenario of creating a VBA code that would take the year input and it would calculate the Total Daily Volumes as well as the yearly Return for every of the 12 stocks that were being analyzed.
 
 The purpose of this challenge is to use a pre existing code that was developed during Module 2, this code was to be refactored as to increase efficiency of the macros in terms of using less memory, thus less processing time.
 
 ----
 
 # Results:
-##The code
+## The code
 
 **For Loops** For Loops and Nested For loops were used in order to populate Ticker Data as well as values in the output cells
 
-Insert Image of For Loop
+![alt text](https://github.com/chgallegos/stock-analysis/blob/main/Nested%20Loops.png)
 
 **Conditional Statements** The conditional statements were used in order to allow the loop to keep running based on the appropriate ticker index
 
-Insert Image of Conditional Statement
+![alt text](https://github.com/chgallegos/stock-analysis/blob/main/Conditional%20Statements.png)
 
 
 **Row Count**: It also required for outside research as to find the Row Count (RowCount = Cells(Rows.Count, "A").End(xlUp).Row). 
 
-###Pre-Refactored code:
+### Pre-Refactored code:
 
 When the code for Module 2 was ran, before it was refactored it provided the following run times:
 
 **2017**
-insert screenshot
+![alt text](https://github.com/chgallegos/stock-analysis/blob/main/VBA_Challenge_2017%20Pre-Refactored.png)
 **2018**
-insert screenshot
+![alt text](https://github.com/chgallegos/stock-analysis/blob/main/VBA_Challenge_2018%20Pre-Refactored.png)
 
-###Refactored Code:
+### Refactored Code:
 
 Once the code was refactored, the code ran faster, this is because the code was made more efficient by using a shorter code that was more efficient and didnt need as much memory to process a less efficient code.
 
+**2017**
+![alt text](https://github.com/chgallegos/stock-analysis/blob/main/VBA_Challenge_2017%20Refactored.png)
+
+**2018**
+![alt text](https://github.com/chgallegos/stock-analysis/blob/main/VBA_Challenge_2017%20Refactored.png)
 ----
 
 #Summary:
