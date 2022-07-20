@@ -39,7 +39,7 @@ When the code for Module 2 was ran, before it was refactored it provided the fol
 
 Once the code was refactored, the code ran faster, this is because the code was made more efficient by using a shorter code that was more efficient and didnt need as much memory to process a less efficient code.
 
-### 2017*
+### 2017
 
 ![alt text](https://github.com/chgallegos/stock-analysis/blob/main/VBA_Challenge_2017%20Refactored.png)
 
